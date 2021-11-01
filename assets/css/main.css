@@ -1,0 +1,311 @@
+#navbar {
+  display: flex;
+  height: 125px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-right: 45px;
+}
+#navbar ul li a {
+  color: black;
+  padding: 35px;
+
+  font-weight: 500;
+}
+#navbar img {
+  padding-left: 80px;
+}
+#box-1 {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+#box-1 .title {
+  font-weight: 700;
+  font-size: 2em;
+}
+#box-1 .para {
+  font-weight: 100;
+  font-size: 4.5em;
+}
+#box-2 {
+  background: rgb(243, 243, 249);
+}
+#box-2 .box-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#box-2 .box-2 .text-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+#box-2 .box-2 .text-box .title {
+  font-weight: 700;
+  font-size: 2em;
+  opacity: 0.8;
+  padding-bottom: 25px;
+}
+#box-2 .box-2 .text-box .para {
+  font-weight: 300;
+  font-size: 1.25em;
+  padding-bottom: 25px;
+  line-height: 35px;
+}
+#box-2 .box-2 .text-box .btn {
+  padding-top: 25px;
+}
+#box-2 .box-2 .text-box .btn a {
+  color: white;
+  background: black;
+  padding: 25px 50px;
+}
+#box-3 #title {
+  padding-top: 125px;
+  font-weight: 200;
+  font-size: 4em;
+}
+#box-3 .box-3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+#box-3 .box-3 .textbox-1 .title-1 {
+  font-weight: 600;
+  font-size: 1.75em;
+}
+#box-3 .box-3 .textbox-1 .para1 {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 35px;
+  opacity: 0.8;
+}
+#box-3 .box-3 .textbox-2 .title-2 {
+  font-weight: 600;
+  font-size: 1.75em;
+}
+#box-3 .box-3 .textbox-2 .para2 {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 35px;
+  opacity: 0.8;
+}
+#box-4 {
+  padding-top: 125px;
+}
+#box-4 .box-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box-4 .box-4 .text-box {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+#box-4 .box-4 .text-box .title {
+  font-weight: 200;
+  font-size: 3em;
+}
+#box-4 .box-4 .text-box .para {
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 35px;
+  opacity: 0.6;
+}
+#box-4 .box-4 .text-box .btn {
+  padding-top: 50px;
+}
+#box-4 .box-4 .text-box .btn a {
+  color: white;
+  background: black;
+  padding: 25px 50px;
+}
+#box-4 .box-4 .img {
+  background: white;
+  width: 700px;
+  height: 799px;
+}
+#box-5 .headtitle {
+  padding-top: 150px;
+  font-weight: 200;
+  font-size: 3.75em;
+  padding-bottom: 50px;
+}
+#box-5 .box-5 {
+  display: flex;
+  justify-content: center;
+}
+#box-5 .box-5 .text-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: white;
+  width: 400px;
+}
+#box-5 .box-5 .text-boxes .textbox-1 {
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+#box-5 .box-5 .text-boxes .textbox-2 {
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+#box-5 .box-5 .text-boxes .title {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding-left: 75px;
+}
+
+#box-5 .box-5 .text-boxes .para {
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 75px;
+}
+#box-5 .box-5 .text-boxes .read {
+  font-weight: 600;
+  padding-bottom: 50px;
+  padding-left: 75px;
+}
+#box-5 .btn {
+  padding-top: 80px;
+}
+#box-5 .btn a {
+  color: white;
+  background: rgb(31, 30, 30);
+  padding: 20px 55px;
+}
+#box-6 {
+  padding-top: 175px;
+}
+#box-6 .firstbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 230px;
+}
+#box-6 .firstbox .title {
+  font-weight: 600;
+  font-size: 1.75em;
+}
+#box-6 .firstbox .text {
+  font-weight: 200;
+  font-size: 3em;
+}
+#box-6 .secondbox {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+#box-6 .secondbox .textbox {
+  font-weight: 500;
+  line-height: 35px;
+  opacity: 0.5;
+}
+#box-6 p {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 220px;
+}
+#box-6 span {
+  letter-spacing: -4px;
+}
+#box-7 {
+  padding-top: 175px;
+}
+#box-7 .box-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#box-7 .box-7 .title {
+  font-weight: 200;
+  font-size: 3em;
+}
+#box-7 .box-7 .menu ul {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  list-style-type: none;
+}
+#box-7 .box-7 .menu ul li a {
+  padding: 30px;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 35px;
+  opacity: 0.5;
+}
+#box-7 .box-7 .menu .first {
+  opacity: 1;
+}
+#box-7 .img img {
+  padding-top: 30px;
+  width: 1250px;
+}
+#box-8 .tırnak {
+  font-size: 15em;
+}
+#box-8 .box-8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#box-8 .box-8 .text-1 .text {
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 35px;
+  opacity: 0.5;
+}
+#box-8 .box-8 .text-1 p {
+  padding-top: 20px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+#box-8 .box-8 .text-1 p span {
+  letter-spacing: -4px;
+}
+#box-8 .box-8 .sol {
+  font-size: 1.5em;
+  margin: 30px;
+  padding: 5px 10px;
+  border: 1px solid rgb(214, 214, 214);
+}
+#box-8 .box-8 .sag {
+  margin: 30px;
+  padding: 5px 10px;
+  border: 1px solid rgb(214, 214, 214);
+  font-size: 1.5em;
+}
+#footer {
+  padding-top: 150px;
+}
+#footer .boxes {
+  background: rgb(22, 22, 22);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#footer .boxes * {
+  color: white;
+}
+#footer .boxes .box {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+#footer .boxes .box ul {
+  list-style: none;
+  padding-top: 10px;
+  line-height: 30px;
+}
+#footer .boxes .box ul li a {
+  font-weight: 100;
+}
